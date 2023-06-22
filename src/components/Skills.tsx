@@ -3,32 +3,32 @@ import SkillComponent from "./SkillComponent";
 const Skills = () => {
     const skillList = [
         { title: "Python", icon: "src/assets/python.png" },
-        { title: "Javascript", icon: "src/assets/JavaScript-logo.png" },
-        { title: "Typescript", icon: "src/assets/Typescript_logo_2020.svg.png" },
-        { title: "Java", icon: "src/assets/java.png" },
-        { title: "Php", icon: "src/assets/php.png" },
-        { title: "Kotlin", icon: "src/assets/Kotlin_Icon.svg.png" },
-        { title: "C++", icon: "src/assets/ISO_C++_Logo.svg.png" },
-        { title: "SQL", icon: "src/assets/sql-server-icon-png-29.png" },
-        { title: "HTML", icon: "src/assets/html-1.svg" },
-        { title: "CSS", icon: "src/assets/CSS3_logo.svg.png" },
+        { title: "Javascript", icon: "./JavaScript-logo.png" },
+        { title: "Typescript", icon: "./Typescript_logo_2020.svg.png" },
+        { title: "Java", icon: "./java.png" },
+        { title: "Php", icon: "./php.png" },
+        { title: "Kotlin", icon: "./Kotlin_Icon.svg.png" },
+        { title: "C++", icon: "./ISO_C++_Logo.svg.png" },
+        { title: "SQL", icon: "./sql-server-icon-png-29.png" },
+        { title: "HTML", icon: "./html-1.svg" },
+        { title: "CSS", icon: "./CSS3_logo.svg.png" },
     ]
 
     const frameWorks = [
-        { title: 'React', icon: "src/assets/react.svg" },
-        { title: 'Tailwind', icon: "src/assets/tailwind.png" },
-        { title: 'Bootstrap', icon: "src/assets/bootstrap.png" },
-        { title: 'Chakra UI', icon: "src/assets/chakraui.png" },
-        { title: 'Material UI', icon: "src/assets/mui.png" },
-        { title: 'Laravel', icon: "src/assets/laravel.png" },
-        { title: 'Android Studio', icon: "src/assets/android.png" },
-        { title: 'Django', icon: "src/assets/django.svg" },
+        { title: 'React', icon: "./react.svg" },
+        { title: 'Tailwind', icon: "./tailwind.png" },
+        { title: 'Bootstrap', icon: "./bootstrap.png" },
+        { title: 'Chakra UI', icon: "./chakraui.png" },
+        { title: 'Material UI', icon: "./mui.png" },
+        { title: 'Laravel', icon: "./laravel.png" },
+        { title: 'Android Studio', icon: "./android.png" },
+        { title: 'Django', icon: "./django.svg" },
     ]
     const operatingSystems = [
 
-        { title: 'Windows', icon: "src/assets/windows.png" },
-        { title: 'Linux', icon: "src/assets/linux.png" },
-        { title: 'Mac', icon: "src/assets/mac.png" },
+        { title: 'Windows', icon: "./windows.png" },
+        { title: 'Linux', icon: "./linux.png" },
+        { title: 'Mac', icon: "./mac.png" },
     ]
     return (
         <div id="skills" className="m-auto pt-10">
