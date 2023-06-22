@@ -2,7 +2,7 @@ import SkillComponent from "./SkillComponent";
 
 const Skills = () => {
     const skillList = [
-        { title: "Python", icon: "src/assets/python.png" },
+        { title: "Python", icon: "./python.png" },
         { title: "Javascript", icon: "./JavaScript-logo.png" },
         { title: "Typescript", icon: "./Typescript_logo_2020.svg.png" },
         { title: "Java", icon: "./java.png" },
