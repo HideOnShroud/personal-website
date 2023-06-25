@@ -11,7 +11,7 @@ const Projects = () => {
         }
     }, [width])
     return (
-        <div id="projects" className="m-auto pt-10">
+        <div id="projects" className="m-auto pt-5 overflow-hidden">
             <h1 className="text-6xl text-center mt-10 mb-10">Projects</h1>
             <motion.div ref={slider} whileTap={{ cursor: 'grabbing' }}>
 
