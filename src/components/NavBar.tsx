@@ -34,7 +34,7 @@ const NavBar = () => {
                                     </a>
                                 </ScrollLink>
                                 ) :
-                                (<Link to='/' state={{ section: item.title }}>{item.title}</Link>)}
+                                (<Link to='/' state={{ section: item.title }}>.{item.title}</Link>)}
                         </li>))}
 
                         <li className="md:hidden xl:hidden 2xl:hidden">
@@ -69,7 +69,7 @@ const NavBar = () => {
                                 </a>
                             </ScrollLink>
                             ) :
-                            (<Link to='/' state={{ section: item.title }}>{item.title}</Link>)}
+                            (<Link to='/' state={{ section: item.title }}>.{item.title}</Link>)}
                     </li>))}
                 </motion.ul>
                 : null}

@@ -1,13 +1,20 @@
-
+import react from '../assets/frameworks/react.svg'
+import tailwind from '../assets/frameworks/tailwind.png'
+import bootstrap from '../assets/frameworks/bootstrap.png'
+import chakra from '../assets/frameworks/chakraui.png'
+import mui from '../assets/frameworks/mui.png'
+import laravel from '../assets/frameworks/laravel.png'
+import android from '../assets/frameworks/android.png'
+import django from '../assets/frameworks/django.svg'
 const frameWorks = [
-    { title: 'React', icon: "./react.svg" },
-    { title: 'Tailwind', icon: "./tailwind.png" },
-    { title: 'Bootstrap', icon: "./bootstrap.png" },
-    { title: 'Chakra UI', icon: "./chakraui.png" },
-    { title: 'Material UI', icon: "./mui.png" },
-    { title: 'Laravel', icon: "./laravel.png" },
-    { title: 'Android Studio', icon: "./android.png" },
-    { title: 'Django', icon: "./django.svg" },
+    { title: 'React', icon: react },
+    { title: 'Tailwind', icon: tailwind },
+    { title: 'Bootstrap', icon: bootstrap },
+    { title: 'Chakra UI', icon: chakra },
+    { title: 'Material UI', icon: mui },
+    { title: 'Laravel', icon: laravel },
+    { title: 'Android Studio', icon: android },
+    { title: 'Django', icon: django },
 ]
 
 export default frameWorks

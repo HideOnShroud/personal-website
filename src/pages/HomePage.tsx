@@ -16,6 +16,9 @@ const HomePage = () => {
             if (element) {
 
                 element.scrollIntoView({ behavior: 'smooth' });
+                window.history.replaceState({}, 'home')
+
+
             }
         }
 
