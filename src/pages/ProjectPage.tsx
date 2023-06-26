@@ -12,16 +12,15 @@ const ProjectPage = () => {
 
         <div className="pt-20">
             <div className="text-center w-full">
-
                 <h1 className="text-white text-6xl">{filteredProject?.title}</h1>
                 <h1 className="text-white text-4xl pt-10">{filteredProject?.desc}</h1>
-                <div className="flex justify-center w-full ">
+                <div className="m-auto pt-5 overflow-hidden">
                     <Carousel thing={filteredProject?.screenshots?.map((item: any) => (<Screenshots image={item} />))} />
-
                 </div>
-
             </div>
-        </div >
+
+        </div>
+
     );
 }
 
