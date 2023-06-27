@@ -13,7 +13,7 @@ const frameWorks = [
     { title: 'Chakra UI', icon: chakra },
     { title: 'Material UI', icon: mui },
     { title: 'Laravel', icon: laravel },
-    { title: 'Android Studio', icon: android },
+    { title: 'Android', icon: android },
     { title: 'Django', icon: django },
 ]
 
