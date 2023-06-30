@@ -7,7 +7,7 @@ const Contact = () => {
             <div id="contact" className="bg-[#07171d] w-[100vw] h-[75vh] mb-28 md:w-[70vw] [box-shadow:_0_10px_10px_rgb(0_0_0_/_80%)] rounded-[5vh] mt-5 grid place-items-center overflow-hidden" >
                 <div className="text-2xl md:text-4xl lg:text-5xl text-center">
                     <h1 className="mb-8">Guga Natroshvili</h1>
-                    <h1 className="mb-8">Email: <a href="mailto:guga.natroshvili@proton.me">guga.natroshvili@proton.me</a>
+                    <h1 className="mb-8">Email: <p onClick={() => { navigator.clipboard.writeText("guga.natroshvili@proton.me") }}>guga.natroshvili@proton.me</p>
                     </h1>
                     <h1 className="mb-8">Phone: <a href="tel:+995598631633">+995 598 631 633</a>
                     </h1>

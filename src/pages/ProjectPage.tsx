@@ -8,6 +8,8 @@ const ProjectPage = () => {
     const { title } = useParams()
     const filteredProject = projectList.find((project) => project.title === title)
 
+
+
     return (
 
         <div className="pt-20">
@@ -17,6 +19,7 @@ const ProjectPage = () => {
                 <div className="m-auto pt-5 overflow-hidden">
                     <Carousel thing={filteredProject?.screenshots?.map((item: any) => (<Screenshots image={item} />))} />
                 </div>
+
             </div>
 
         </div>

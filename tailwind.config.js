@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+import { domMax } from 'framer-motion';
+
 export default {
   content: ["./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"],
@@ -19,12 +21,14 @@ export default {
           '100%': {
             transform: 'translate(-50%,0%)'
           },
+        },
 
-        }
       },
       animation: {
         'wave': 'wave 8s linear infinite',
+
       },
+
     },
 
   },
