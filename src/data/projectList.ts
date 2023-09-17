@@ -3,13 +3,25 @@ import frameWorks from "./frameWorks";
 import gameSpotter from "../assets/projects/game-spotter.png"
 import quizzer from "../assets/projects/quizzer.png"
 import autoThemer from "../assets/projects/autothemer.png"
+import bannaSpa from "../assets/projects/banna-spa.png"
 
 import gameSpotter1 from "../assets/projects/gamespotter/screenshot-1.png"
 import gameSpotter2 from "../assets/projects/gamespotter/screenshot-2.png"
 import gameSpotter3 from "../assets/projects/gamespotter/screenshot-3.png"
 
+import bannaAbout from "../assets/projects/bannaSpa/about.png"
+import mobileHome from "../assets/projects/bannaSpa/mobileHome.png"
+import mobileAbout from "../assets/projects/bannaSpa/mobileAbout.png"
+
 
 const projectList = [
+    {
+        title: "Banna Thai Massage", icon: bannaSpa,
+        desc: `Website for Banna Spa`,
+        link: "https://www.bannaspa.ge/",
+        screenshots: [bannaAbout, mobileHome, mobileAbout],
+        used: [skillList[10].icon, skillList[11].icon, skillList[2].icon, frameWorks[0].icon, frameWorks[1].icon,]
+    },
     {
         title: "Game-Spotter", icon: gameSpotter,
         desc: `Video Game Catalogue Using Rawg Api`,
