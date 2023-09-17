@@ -18,7 +18,7 @@ const projectList = [
     {
         title: "Banna Thai Massage", icon: bannaSpa,
         desc: `Website for Banna Spa`,
-        link: "https://www.bannaspa.ge/",
+        link: "https://bannaspa.ge/",
         screenshots: [bannaAbout, mobileHome, mobileAbout],
         used: [skillList[10].icon, skillList[11].icon, skillList[2].icon, frameWorks[0].icon, frameWorks[1].icon,]
     },
