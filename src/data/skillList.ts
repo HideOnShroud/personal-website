@@ -10,6 +10,7 @@ import git from "../assets/skills/git-logo.png"
 import firebase from "../assets/skills/firebase-logo.webp"
 import html from "../assets/skills/html-logo.svg"
 import css from "../assets/skills/css-logo.png"
+import mongoDb from "../assets/skills/Mongodb.png"
 const skillList = [
     { title: "Python", icon: python },
     { title: "Javascript", icon: javascript },
@@ -20,6 +21,7 @@ const skillList = [
     { title: "C++", icon: cpp },
     { title: "SQL", icon: sql },
     { title: "Firebase", icon: firebase },
+    { title: "MongoDB", icon: mongoDb },
     { title: "Git", icon: git },
     { title: "HTML", icon: html },
     { title: "CSS", icon: css },
