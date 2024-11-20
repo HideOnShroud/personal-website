@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import { useEffect } from "react";
 import { Element } from "react-scroll";
+import Certifiactes from "../components/Certificates";
 
 const HomePage = () => {
     const location = useLocation()
@@ -37,6 +38,10 @@ const HomePage = () => {
 
                 <Projects />
             </Element>
+            <Element name="certificates">
+                <Certifiactes />
+            </Element>
+
             <Element name="contact">
 
                 <Contact />

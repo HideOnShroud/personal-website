@@ -10,7 +10,8 @@ const NavBar = () => {
         { id: 0, title: "home" },
         { id: 1, title: "skills" },
         { id: 2, title: "projects" },
-        { id: 3, title: "contact" },
+        { id: 3, title: "certificates" },
+        { id: 4, title: "contact" },
     ]
     const [isClosed, setClosed] = useState(true)
 
